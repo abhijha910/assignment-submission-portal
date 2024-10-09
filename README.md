@@ -99,8 +99,8 @@ Assignment Submission Portal/
 
 ## Start Your MongoDB Server
 Ensure that your MongoDB server is running locally. If you're using MongoDB installed on your machine, you can start it using:
-    ```bash
-    mongod
+        ```bash
+        mongod
 
 This command starts the MongoDB server on the default port (27017). If you’re using a cloud service like MongoDB Atlas, ensure that your connection string in config/db.js is correctly configured to connect to the cloud database.
 
@@ -111,19 +111,19 @@ Open a terminal (or command prompt) and navigate to your project directory (if y
         cd path/to/your/assignment-submission-portal
 
 Then, run the server using:
-                ```bash
-                node server.js
+        ```bash
+        node server.js
 
 **Access the Application :**
 Your server will start running on localhost, typically on port 3000 (if configured as such). Open your web browser and go to:
-                    ```bash
-                    http://localhost:3000
+        ```bash
+        http://localhost:3000
 
 If you have set a different port in your server.js file, replace 3000 with that port number.
 
 **Test the API :**
 Use API testing tools like Postman or Insomnia to send requests to your API endpoints. For example, you can send a request to register a user:
-                            ```bash
-                            POST http://localhost:3000/register
+         ```bash
+         POST http://localhost:3000/register
 
 ##This should get your project up and running smoothly!
