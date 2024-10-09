@@ -2,7 +2,9 @@
 
 ## Scenario
 
-This assignment submission portal supports two types of users: **Users** and **Admins**.
+The **Assignment Submission Portal** is a web application designed to facilitate the submission and management of assignments for users and admins. This platform supports two primary user roles: **Users** who can upload their assignments and **Admins** who have the authority to review, accept, or reject those submissions. 
+
+With a focus on user-friendly interactions, the portal ensures a streamlined experience for both parties. Users can easily register, log in, and submit their assignments, while admins have access to a comprehensive view of the assignments associated with them. This system is built on a robust backend powered by **Node.js** and uses **MongoDB** for data storage, ensuring scalability and reliability.
 
 - **Users** can upload assignments, represented by objects like the following:
     ```json
@@ -71,23 +73,26 @@ Assignment Submission Portal/
   
   ## How to Set Up the Project
 
+    # Assignment Submission Portal
+
+## Installation
+
 1. **Clone the repository:**
-       ```bash
-       git clone https://github.com/abhijha910/assignment-submission-portal.git
-       cd assignment-submission-portal
-    
-    2. Navigate to the Project Directory: Change to the project directory:
-       ```bash
-       cd assignment-submission-portal
+   ```bash
+   git clone https://github.com/abhijha910/assignment-submission-portal.git
+   cd assignment-submission-portal
+2. Navigate to the Project Directory: Change to the project directory:
+   ```bash
+   cd assignment-submission-portal
        
-    3. Install Required Dependencies: Ensure you have Node.js installed. Then, install the required dependencies by running: 
-       ```bash
-        npm install
+3. Install Required Dependencies: Ensure you have Node.js installed. Then, install the required dependencies by running: 
+   ```bash
+   npm install
        
-    4. Configure the Database: Open the config/db.js file and update the MongoDB connection string as needed to point to your running MongoDB instance.
+4. Configure the Database: Open the config/db.js file and update the MongoDB connection string as needed to point to your running MongoDB instance.
     
-    5. Start the Server: Run the server using:
-       ```bash
-        node server.js
+5. Start the Server: Run the server using:
+   ```bash
+   node server.js
     
-    7. Test the API: Use tools like Postman or Insomnia to interact with the API endpoints.
+7. Test the API: Use tools like Postman or Insomnia to interact with the API endpoints.
