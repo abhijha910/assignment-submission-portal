@@ -73,7 +73,7 @@ Assignment Submission Portal/
   
   # How to Set Up and Run the Project
 
-## Installation
+## Installation and Run the Project
 
 1. **Clone the repository:**
    ```bash
