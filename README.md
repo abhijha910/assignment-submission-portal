@@ -73,7 +73,7 @@ Assignment Submission Portal/
   
   # How to Set Up and Run the Project
 
-## Installation and Run the Project
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -94,8 +94,6 @@ Assignment Submission Portal/
    node server.js
     
 7. **Test the API: Use tools like Postman or Insomnia to interact with the API endpoints. You can send requests to the endpoints as specified in the requirements.**
-
-## Running the Project on Localhost
 
 ## Running the Project on Localhost
 
