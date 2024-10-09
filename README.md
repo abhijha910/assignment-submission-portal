@@ -100,6 +100,7 @@ Assignment Submission Portal/
 ## Running the Project on Localhost
 
 ### Start Your MongoDB Server
+
 1. **Ensure that your MongoDB server is running locally. If you're using MongoDB installed on your machine, you can start it using:**
     ```bash
     mongod
@@ -127,4 +128,4 @@ Use API testing tools like Postman or Insomnia to send requests to your API endp
    ```bash
    POST http://localhost:3000/register
 
-##This should get your project up and running smoothly!
+**This should get your project up and running smoothly!**
