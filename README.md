@@ -50,6 +50,14 @@ This assignment submission portal supports two types of users: **Users** and **A
 
 6. **Modularity:**
    - The code is modular, ensuring readability and maintainability.
+  
+## Project Structure
+## Project Structure
+
+YourProjectName/ ├── models/ │ ├── User.js # Model definition for user data │ └── Assignment.js # Model definition for assignment data ├── routes/ │ ├── userRoutes.js # Routes for user-related requests │ └── adminRoutes.js # Routes for admin-related requests ├── controllers/ │ ├── userController.js # Logic for handling user requests │ ├── adminController.js # Logic for handling admin requests ├── middlewares/ │ └── auth.js # Middleware for authentication ├── server.js # Main server file └── config/ └── db.js # Database configuration file
+
+
+
 
 ## How to Set Up the Project
 
