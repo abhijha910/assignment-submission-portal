@@ -106,9 +106,8 @@ This command starts the MongoDB server on the default port (27017). If you’re 
 
 **Start the Node.js Server :**
 Open a terminal (or command prompt) and navigate to your project directory (if you haven't already):
-
-        ```bash
-        cd path/to/your/assignment-submission-portal
+    ```bash
+    cd path/to/your/assignment-submission-portal
 
 Then, run the server using:
         ```bash
