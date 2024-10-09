@@ -71,7 +71,7 @@ Assignment Submission Portal/
   
   ## How to Set Up the Project
 
-    1. **Clone the repository:**
+1. **Clone the repository:**
        ```bash
        git clone https://github.com/abhijha910/assignment-submission-portal.git
        cd assignment-submission-portal
