@@ -71,7 +71,7 @@ Assignment Submission Portal/
     └── db.js
 
   
-  ## How to Set Up and Run the Project
+  # How to Set Up and Run the Project
 
 ## Installation and Run the Project
 
@@ -94,3 +94,35 @@ Assignment Submission Portal/
    node server.js
     
 7. **Test the API: Use tools like Postman or Insomnia to interact with the API endpoints. You can send requests to the endpoints as specified in the requirements.**
+
+## Running the Project on Localhost
+
+### Start Your MongoDB Server
+Ensure that your MongoDB server is running locally. If you're using MongoDB installed on your machine, you can start it using:
+    ```bash
+    mongod
+
+This command starts the MongoDB server on the default port (27017). If you’re using a cloud service like MongoDB Atlas, ensure that your connection string in config/db.js is correctly configured to connect to the cloud database.
+
+**Start the Node.js Server :**
+Open a terminal (or command prompt) and navigate to your project directory (if you haven't already):
+    ```bash
+    cd path/to/your/assignment-submission-portal
+
+Then, run the server using:
+    ```bash
+    node server.js
+    
+**Access the Application :**
+Your server will start running on localhost, typically on port 3000 (if configured as such). Open your web browser and go to:
+    ```bash
+    http://localhost:3000
+
+If you have set a different port in your server.js file, replace 3000 with that port number.
+
+**Test the API :**
+Use API testing tools like Postman or Insomnia to send requests to your API endpoints. For example, you can send a request to register a user:
+    ```bash
+    POST http://localhost:3000/register
+
+**This should get your project up and running smoothly!**
