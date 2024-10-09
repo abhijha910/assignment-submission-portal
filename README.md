@@ -97,10 +97,12 @@ Assignment Submission Portal/
 
 ## Running the Project on Localhost
 
-## Start Your MongoDB Server
+## Running the Project on Localhost
+
+### Start Your MongoDB Server
 Ensure that your MongoDB server is running locally. If you're using MongoDB installed on your machine, you can start it using:
-        ```bash
-        mongod
+```bash
+mongod
 
 This command starts the MongoDB server on the default port (27017). If you’re using a cloud service like MongoDB Atlas, ensure that your connection string in config/db.js is correctly configured to connect to the cloud database.
 
