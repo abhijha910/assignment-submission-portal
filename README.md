@@ -52,11 +52,6 @@ This assignment submission portal supports two types of users: **Users** and **A
 6. **Modularity:**
    - The code is modular, ensuring readability and maintainability.
 
-## Deliverables
-
-- A fully functional backend system meeting all outlined requirements.
-- Documentation on how to set up and run the system.
-- Well-commented code for clarity.
 
 ## How to Set Up the Project
 
@@ -64,3 +59,18 @@ This assignment submission portal supports two types of users: **Users** and **A
    ```bash
    git clone https://github.com/abhijha910/assignment-submission-portal.git
    cd assignment-submission-portal
+
+2. Navigate to the Project Directory: Change to the project directory:
+   ```bash
+   cd assignment-submission-portal
+3. Install Required Dependencies: Ensure you have Node.js installed. Then, install the required dependencies by running: 
+
+    npm install
+   
+4. Configure the Database: Open the config/db.js file and update the MongoDB connection string as needed to point to your running MongoDB instance.
+
+5. Start the Server: Run the server using:
+
+    node server.js
+
+7. Test the API: Use tools like Postman or Insomnia to interact with the API endpoints.
